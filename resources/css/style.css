@@ -24,6 +24,12 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
 p {
   font-size: 0.95rem;
   margin-bottom: 1.5rem;
@@ -231,6 +237,54 @@ header nav ul li {
   #articles .sidebar .container .info {
     width: 100%;
     padding: 0 16px 16px 16px;
+  }
+}
+
+/* Majors */
+
+#majors-section {
+  background-color: lightblue;
+  padding: 32px 40px 32px 72px;
+}
+
+#majors-section h2 {
+  margin-right: 40px;
+  text-align: center;
+}
+
+#majors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#majors .container {
+  width: 30%;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  background-color: white;
+}
+
+#majors .container img {
+  width: 100%;
+}
+
+#majors .container p, h3, h4 {
+  padding-left: 16px;
+}
+
+#majors .container h3 {
+  padding-top: 16px;
+}
+
+@media only screen and (max-width: 680px) {
+  #majors .container {
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: grey;
+  }
+
+  #majors h3{
+    padding-bottom: 8px;
   }
 }
 
