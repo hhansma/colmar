@@ -97,6 +97,7 @@ header nav ul li {
   .logo, .logo-type1, .logo-type2, .desktop-only {
     display: none;
   }
+
   header nav ul {
     width: 100%;
     justify-content: space-around;
@@ -207,6 +208,10 @@ header nav ul li {
   margin-bottom: 0.5rem;
 }
 
+#articles .sidebar .container .info  h3 {
+  padding-left: 0;
+}
+
 #articles .sidebar .container .info a {
   color: #797979;
 }
@@ -288,6 +293,73 @@ header nav ul li {
   }
 }
 
-video {
+/* Thesis Exhibit */
+
+#thesis {
+  background-color: orange;
+}
+
+#thesis h2 {
+  text-align: center;
+  padding: 32px;
+  margin-bottom: 0;
+}
+
+#thesis .thesis-stuff {
+  display: flex;
+}
+
+#thesis .thesis-stuff .highlight {
   width: 60%;
+  margin: 0 24px 8px 24px;
+}
+
+#thesis .thesis-stuff .highlight video {
+  width: 100%;
+}
+
+#thesis .thesis-stuff .highlight h3 {
+  padding: 24px 0 8px 0;
+}
+
+#thesis .thesis-stuff .sidebar {
+  width: 40%;
+}
+
+#thesis .thesis-stuff .sidebar .container {
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+
+#thesis .sidebar .img-container {
+  width: 35%;
+  padding: 16px;
+}
+
+#thesis .sidebar h3 {
+  padding: 0;
+}
+
+#thesis .sidebar p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 680px) {
+  #thesis .thesis-stuff .sidebar {
+    display: none;
+  }
+
+  #thesis .thesis-stuff .highlight {
+    width: 100%;
+    margin: 0 0 24px 0;
+  }
+
+  #thesis h2 {
+    padding-bottom: 16px;
+  }
+
+  #thesis .thesis-stuff .highlight h3, p {
+    display: none;
+  }
 }
