@@ -363,3 +363,33 @@ header nav ul li {
     display: none;
   }
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+footer .copyright p {
+  font-size: 0.75rem;
+}
+
+footer .terms ul {
+  display: flex;
+}
+
+footer .terms ul li {
+  padding-left: 15px;
+  font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 680px) {
+  footer .copyright p {
+    display: inline;
+  }
+  footer .terms {
+    display: none;
+  }
+}
