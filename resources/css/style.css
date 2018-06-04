@@ -44,6 +44,10 @@ a {
   color: #4a4a4a;
 }
 
+a:hover {
+  color: #000;
+}
+
 /* Header */
 
 header nav {
@@ -141,6 +145,10 @@ header nav ul li {
   width: 60%;
 }
 
+#hero .button:hover {
+  background-color: #222222;
+}
+
 @media only screen and (max-width: 680px) {
   #hero {
     display: block;
@@ -231,10 +239,13 @@ header nav ul li {
     display: block;
   }
 
+  #articles, #articles .sidebar .container p {
+    display: block;
+  }
+
   #articles .sidebar .container {
     padding: 16px;
   }
-
 
   #articles .sidebar {
     width: 100%;
@@ -302,7 +313,7 @@ header nav ul li {
 /* Thesis Exhibit */
 
 #thesis {
-  background-color: #eeeeee;
+  background-color: #fff;
 }
 
 #thesis h2 {
@@ -375,6 +386,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 16px 24px;
+  background-color: #eeeeee;
 }
 
 footer .copyright p {
