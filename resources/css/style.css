@@ -73,6 +73,10 @@ header nav ul li {
   margin-right: 16px;
 }
 
+header nav ul li:hover {
+  background-color: #f6f6f6;
+}
+
 .logo {
   display: inline-flex;
   align-items: center;
@@ -214,6 +218,10 @@ header nav ul li {
   align-items: center;
 }
 
+#articles .sidebar .container:hover {
+  background-color: #eeeeee;
+}
+
 #articles .sidebar .container .info {
   width: 65%;
 }
@@ -302,7 +310,12 @@ header nav ul li {
   #majors .container {
     width: 100%;
     margin-bottom: 8px;
-    background-color: grey;
+    background-color: white;
+  }
+
+  #majors .container:hover {
+    background-color: #222222;
+    color: white;
   }
 
   #majors h3{
@@ -346,6 +359,10 @@ header nav ul li {
 #thesis .thesis-stuff .sidebar .container {
   display: flex;
   align-items: center;
+}
+
+#thesis .thesis-stuff .sidebar .container:hover {
+  background-color: #eeeeee;
 }
 
 #thesis .sidebar .img-container {
